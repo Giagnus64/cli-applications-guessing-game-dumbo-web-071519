@@ -1,7 +1,6 @@
 # Code your solution here!
 def run_guessing_game
   comp_number = generate_random_number
-  #prompt_user
   user_number = capture_user_input
   if (comp_number == user_number.to_i)
     puts "You guessed the correct number!"
@@ -16,14 +15,6 @@ def generate_random_number
   num = rand(6) + 1
 end
 
-def prompt_user
-  puts "Guess A Random Number from 1 to 6!"
-end
-
 def capture_user_input
   user_guess = gets.chomp
 end
-
-#def compare_numbers(comp_number, user_number)
-
-#end
