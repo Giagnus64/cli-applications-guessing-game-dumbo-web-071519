@@ -3,7 +3,6 @@ def run_guessing_game
   comp_number = generate_random_number
   prompt_user
   user_number = capture_user_input
-  print user_number
   if (comp_number == user_number)
     puts "You guessed the right number!"
   elsif user_number == "exit"
