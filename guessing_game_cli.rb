@@ -4,7 +4,7 @@ def run_guessing_game
   #prompt_user
   user_number = capture_user_input
   if (comp_number == user_number.to_i)
-    puts "You guessed the right number!"
+    puts "You guessed the correct number!"
   elsif user_number == "exit"
     puts "Goodbye!"
   else
