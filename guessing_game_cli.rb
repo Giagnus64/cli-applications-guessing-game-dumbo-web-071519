@@ -21,7 +21,7 @@ end
 def compare_numbers(comp_number, user_number)
   if comp_number == user_number
     puts "You guessed the right number!"
-  elsif user_guess == "exit"
+  elsif user_number == "exit"
     puts "Goodbye!"
   else
     puts "Sorry! The computer guessed #{comp_number}."
