@@ -17,7 +17,7 @@ def generate_random_number
 end
 
 def prompt_user
-  puts "Guess A Random Number from 1 to 6!"
+  print "Guess A Random Number from 1 to 6!"
 end
 
 def capture_user_input
