@@ -2,8 +2,8 @@
 def run_guessing_game
   comp_number = generate_random_number
   prompt_user
-  user_number.to_i = capture_user_input
-  if (comp_number == user_number)
+  user_number = capture_user_input
+  if (comp_number == user_number.to_i)
     puts "You guessed the right number!"
   elsif user_number == "exit"
     puts "Goodbye!"
