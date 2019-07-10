@@ -7,7 +7,7 @@ def run_guessing_game
 end
 
 def generate_random_number
-  num = rand(1..6)
+  num = rand(6) + 1
 end
 
 def prompt_user
