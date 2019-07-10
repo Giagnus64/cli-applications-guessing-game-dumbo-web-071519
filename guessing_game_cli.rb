@@ -1,6 +1,7 @@
 # Code your solution here!
 def run_guessing_game
   comp_number = generate_random_number
+  prompt_user
   user_number = capture_user_input
   compare_numbers(comp_number, user_number)
 end
