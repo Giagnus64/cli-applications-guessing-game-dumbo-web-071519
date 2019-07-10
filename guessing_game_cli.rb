@@ -2,8 +2,8 @@
 def run_guessing_game
   comp_number = generate_random_number
   prompt_user
-  capture_user_input
-  compare_numbers
+  user_number = capture_user_input
+  compare_numbers(comp_number, user_number)
 end
 
 def generate_random_number
