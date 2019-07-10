@@ -21,7 +21,7 @@ def prompt_user
 end
 
 def capture_user_input
-  user_guess = gets
+  user_guess = gets.chomp
 end
 
 #def compare_numbers(comp_number, user_number)
